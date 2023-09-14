@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Grid layout</title>
+<style>
+.grid-container {
+display: grid;
+grid-template-columns: 1fr 2fr 1fr 1fr;
+display: flex;
+flex-direction: column;
+}
+
+.grid-item {
+background-color: #9c0808;
+padding: 100px;
+}
+.grid-item1 {
+background-color: #0b0f05;
+padding: 100px;
+}
+.grid-item2 {
+background-color: #59595a;
+padding: 100px;
+} .grid-item3 {
+background-color: #050805;
+padding: 100px;
+}
+.dir{
+    display: flex;
+flex-direction: row; 
+}
+
+
+</style>
+</head>
+<body>
+<div class="grid-container">
+    <div class="grid-item">
+    <div> <img src="images.jpeg" alt=""> <img src="images (1).jpeg" alt=""> <img src="images (2).jpeg" alt="">  <img src="images.jpeg" alt="">
+
+
+    </div>
+</div>
+<div class="dir" >
+    <div class="grid-item1">Item1
+    <div>COLOQUE UMA IMAGEM AQUI
+
+<img src="image-50.png" alt="">
+
+
+
+<img src="" alt="">
+
+
+
+
+
+
+<img src="a" alt="">
+    </div>
+    </div>
+
+    <div class="grid-item2">Aqui temos nossa amada influencer com a base do felca.
+    <div> <img src="download.jpeg" alt="">
+A famosa influenciadora lançou recentemente sua mais nova base de maquiagem em sua marca WePink. Com 15 tons diferentes, a base promete ser resistente à água, com acabamento mate, textura aveludada, alta fixação na pele e alta cobertura.
+
+
+
+A WePink afirma que a fórmula da base contém ativos que auxiliam na ação calmante, barreira antipoluição, controle da oleosidade, combate ao envelhecimento precoce e nas linhas de expressão. Além disso, a base contém ingredientes como vitamina E, ácido hialurônico, niacinamida e esqualano vegetal.
+
+
+
+Com essa nova base, a marca visa atender às necessidades de diversas consumidoras que buscam um produto de qualidade com benefícios para a pele.
+
+
+    </div>
+    </div>
+    <div class="grid-item3">Item3
+    <div>COLOQUE UMA IMAGEM AQUI 
+
+        <img src="image-50.png" alt="">
+
+
+
+        <img src="images (3).jpeg" alt="">
+
+<img src="images (8).jpeg" alt="">
+
+
+        <img src="images (6).jpeg" alt="">
+    </div>
+
+    
+
+
+</div>
+</div>
+</body>
+</html>
